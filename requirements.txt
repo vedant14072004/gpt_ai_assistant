@@ -16,6 +16,6 @@ requests==2.32.3
 python-multipart==0.0.20
 
 # ── (Optional) RAG Vector Store ───────────────────────────────────────────────
-# Uncomment if you want the ChromaDB RAG chat feature
+# Uncomment to enable context-aware chat via ChromaDB + sentence embeddings
 # chromadb==0.5.20
 # sentence-transformers==3.3.1

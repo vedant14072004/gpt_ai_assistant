@@ -35,9 +35,10 @@ venv.bak/
 *.sqlite3
 exam_predictor.db
 
-# ── Uploaded Files (user content — never commit) ──────────────────────────────
-uploads/
-assignments/
+# ── User-generated file storage (never commit) ────────────────────────────────
+uploads/           # question paper PDFs uploaded for analysis
+assignments/       # assignment files posted by teachers
+submissions/       # student assignment submissions
 
 # ── ChromaDB Vector Store ─────────────────────────────────────────────────────
 db/
