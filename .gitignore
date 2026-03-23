@@ -36,9 +36,9 @@ venv.bak/
 exam_predictor.db
 
 # ── User-generated file storage (never commit) ────────────────────────────────
-uploads           # question paper PDFs uploaded for analysis
-assignments      # assignment files posted by teachers
-submissions      # student assignment submissions
+uploads/
+assignments/
+submissions/
 
 # ── ChromaDB Vector Store ─────────────────────────────────────────────────────
 db/
@@ -49,9 +49,10 @@ question_bank.json
 
 # ── Node / React (frontend) ───────────────────────────────────────────────────
 node_modules/
-dist/
-build/
-.cache/
+frontend/node_modules/
+frontend/dist/
+frontend/build/
+frontend/.cache/
 *.tsbuildinfo
 
 # ── Vite ──────────────────────────────────────────────────────────────────────
@@ -67,7 +68,6 @@ vite.config.js.timestamp-*
 ehthumbs.db
 Thumbs.db
 Desktop.ini
-
 .vscode/
 .idea/
 *.swp
