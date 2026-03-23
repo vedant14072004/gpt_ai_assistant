@@ -36,9 +36,9 @@ venv.bak/
 exam_predictor.db
 
 # ── User-generated file storage (never commit) ────────────────────────────────
-uploads/           # question paper PDFs uploaded for analysis
-assignments/       # assignment files posted by teachers
-submissions/       # student assignment submissions
+uploads           # question paper PDFs uploaded for analysis
+assignments      # assignment files posted by teachers
+submissions      # student assignment submissions
 
 # ── ChromaDB Vector Store ─────────────────────────────────────────────────────
 db/
